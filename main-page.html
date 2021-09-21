@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <a href="#info" class="info_btn">
+                    <li>About Me</li>
+                </a>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Projects</button>
+                    <div class="dropdown-content">
+                      <a href="#sudoku_project">sudoku</a>
+                      <a href="#memory_project">memory</a>
+                      <a href="#system_project">system emulator</a>
+                    </div>
+                  </div></li>
+                <a href="https://www.github.com/loganditterline">
+                    <li class="logo"><img src="resources/github.png"></li>
+                </a>
+                <a href="https://www.linkedin.com/in/loganditterline">
+                    <li class="logo"><img src="resources/linkedin.png"></li>
+                </a>
+                <a href="mailto:ditterline.logan@gmail.com">
+                    <li class="logo"><img src="resources/mail-32.png"></li>
+                </a>
+                    <div class="caption">ditterline.logan@gmail.com</div>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="app-text">
+                <h1>Logan Ditterline</h1>
+                <p>welcome to my portfolio website <br><br>this is a collection
+                    of my projects <br><br>and information about me</p>
+            </div>
+        </div>
+        <div class="about_me" id="info">
+            <h1>Hey</h1>
+            <p>my name is Logan Ditterline and i am currently a 
+                computer science major at the university of texas at austin.
+                i'm in my sophomore year and this is a quick collection of
+                my major projects.
+            </p>
+        </div>
+        <div class="sudoku_project" id="sudoku_project">
+            <h1>sudoku project - python</h1><br>
+            <p>a project that generates and solves sudoku puzzles. the user
+                can choose how many tiles are removed from the puzzle and how
+                quickly it runs. the program has a ui to show the backtracking 
+                algorithm at work.<br><br>the program itself was made with the pygame
+                library so it cannot be demo'd here but below is a video of it
+                working
+            </p>
+            <div class="demo_vid">
+                <video id="demo" width="700" height="700" controls>
+                    <source src="resources/demo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="memory_project" id="memory_project">
+            <h1>memory allocator - C</h1><br>
+            <p>a dynamic memory allocation program that imitates the allocation
+                functions in C. has unique implementations ufree and umalloc which
+                mirror free and malloc C system calls. stored on heap and 
+                tested by different checks to the heap.
+            </p>
+        </div>
+        <div class="system_project" id="system_project">
+            <h1>system emulator - C</h1><br>
+            <p>a virtualization of system processes including an implementation
+                of the RISC pipeline, including forwarding of values and hazard 
+                controls. the system itself is able to execute Y86 instructions,
+                a simplified form of standard x86 assembly instructions.
+
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
