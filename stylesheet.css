@@ -5,15 +5,12 @@
     scroll-padding-top: 90px;
     scroll-behavior: smooth;
     text-decoration: none;
+    font-size: 30px;
 }
 
 body {
     overflow: overlay;
     background: linear-gradient(to top left, #614385, #516395);
-}
-
-p {
-    font-size: 30px;
 }
 
 ::-webkit-scrollbar {
